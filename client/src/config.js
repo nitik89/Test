@@ -1,4 +1,4 @@
 import axios from "axios";
 export const axiosIntance = axios.create({
-    baseURL: "http://localhost:8000/api",
+    baseURL: "https://collegegram13.herokuapp.com/api",
 });

@@ -62,13 +62,13 @@ app.use("/api/conversations", conversationRoute);
 app.use("/api/messages", messageRoute);
 app.use("/api/profile", profileRoute);
 
-if(process.env.NODE_ENV=="production"){
+
 app.use(express.static(path.join(__dirname, "/client/build")));
 
 app.get("*", (req, res) => {
     res.sendFile(path.join(__dirname, "/client/build", "index.html"));
 });
-}
+
 // if (process.env.NODE_ENV === "production") {
 //   app.use(express.static("client/build"));
 // }
