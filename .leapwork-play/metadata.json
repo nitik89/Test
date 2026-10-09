@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-09T04:29:32.186Z",
+  "repo": {
+    "connectorId": 41,
+    "repoSlug": "nitik89/Test",
+    "baseBranch": "main"
+  },
+  "team": {
+    "assetId": 2925,
+    "displayId": "TM-1",
+    "name": "Version control test"
+  },
+  "tree": [
+    {
+      "assetId": 2926,
+      "displayId": "TC-1",
+      "name": "version control testcase",
+      "kind": "test-case",
+      "repoPath": "TC-1-version-control-testcase.spec.ts"
+    }
+  ],
+  "files": [
+    {
+      "assetId": 2926,
+      "assetKind": "test-case",
+      "displayId": "TC-1",
+      "name": "version control testcase",
+      "repoPath": "TC-1-version-control-testcase.spec.ts",
+      "parentAssetId": 2925
+    }
+  ]
+}
